@@ -2,15 +2,13 @@ package main
 
 import "fmt"
 
-func main(){
+func main() {
 
-
-	var(
-		a,s=100,"abc"
-		x,y int
-
+	var (
+		a, s = 100, "abc"
+		x, y int
 	)
 
-	fmt.Println(x,y,a,s)
+	fmt.Println(x, y, a, s)
 
 }
